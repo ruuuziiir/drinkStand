@@ -119,7 +119,6 @@ class ViewController: UIViewController {
     
     @IBAction func redo(_ sender: Any) {
         
-        label.text = " "
         teaSelect.selectedSegmentIndex = 0
         ice.value = 1
         sugar.value = 1
