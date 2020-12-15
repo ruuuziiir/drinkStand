@@ -113,18 +113,15 @@ class ViewController: UIViewController {
     
     @IBAction func sendOrder(_ sender: Any) {
         
-        label.text = "今天您想來點💭：\n\n" + teastr + lattestr + icestr + sugarstr + pearlstr
-    }
-    
-    @IBAction func redo(_ sender: Any) {
+        if teastr == "烏龍茶" {
+            label.text = "已完售"
+        }
+        else {
+            label.text = "今天您想來點💭：\n\n" + teastr + lattestr + icestr + sugarstr + pearlstr
+        }
         
-        teaSelect.selectedSegmentIndex = 0
-        ice.value = 1
-        sugar.value = 1
-        latte.isOn = false
-        pearl.isOn = false
     }
     
-
+    
 }
 

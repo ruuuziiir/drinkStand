@@ -176,17 +176,6 @@
                                     <action selector="sendOrder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN0-y9-bC6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ft-15-JkU">
-                                <rect key="frame" x="100" y="632" width="214" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                <state key="normal" title="🖤重新選擇🖤">
-                                    <color key="titleColor" red="0.054892867800000002" green="0.05490776151" blue="0.054889596999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="redo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MIb-AM-M4U"/>
-                                    <action selector="sendOrder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KQZ-Jy-dR5"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.91144511421319796" green="0.84990607054376155" blue="0.78730589657923189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -201,15 +190,12 @@
                             <constraint firstItem="wUF-b0-meK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Sjt-ZS-oIe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fk1-YE-j0f" secondAttribute="trailing" constant="50" id="T2V-3n-GaE"/>
                             <constraint firstAttribute="bottom" secondItem="y3U-qQ-dBF" secondAttribute="bottom" id="XVw-Rl-j9V"/>
-                            <constraint firstItem="0ft-15-JkU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="YLy-h6-Twm"/>
                             <constraint firstItem="v32-je-UzE" firstAttribute="top" secondItem="fk1-YE-j0f" secondAttribute="bottom" constant="35" id="Ylx-9I-CI8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v32-je-UzE" secondAttribute="trailing" constant="100" id="aG0-gt-nbp"/>
                             <constraint firstItem="fk1-YE-j0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ccQ-Vc-imc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ft-15-JkU" secondAttribute="trailing" constant="100" id="hxx-J3-eSj"/>
                             <constraint firstItem="y3U-qQ-dBF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="joK-Xw-WfR"/>
                             <constraint firstAttribute="trailing" secondItem="wUF-b0-meK" secondAttribute="trailing" constant="20" id="pns-x1-aih"/>
                             <constraint firstAttribute="trailing" secondItem="y3U-qQ-dBF" secondAttribute="trailing" id="rmM-7U-bws"/>
-                            <constraint firstItem="0ft-15-JkU" firstAttribute="top" secondItem="Vfi-NX-2M0" secondAttribute="bottom" constant="20" id="tkT-0G-AmA"/>
                         </constraints>
                     </view>
                     <connections>
