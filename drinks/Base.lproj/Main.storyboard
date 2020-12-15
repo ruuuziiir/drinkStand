@@ -179,7 +179,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ft-15-JkU">
                                 <rect key="frame" x="100" y="632" width="214" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                <state key="normal" title="🖤重新填寫🖤">
+                                <state key="normal" title="🖤重新選擇🖤">
                                     <color key="titleColor" red="0.054892867800000002" green="0.05490776151" blue="0.054889596999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
